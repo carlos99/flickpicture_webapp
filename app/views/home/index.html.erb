@@ -1,2 +1,37 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<section class="main-banner"></section>
+
+<section class="container">
+	<section class="row">
+		<article class="col-md-4 plan-container">
+			<div class="the-plan">
+				<h3 class="plan-title">Free</h3>				
+				<span class="plan_price"><span class="currency">$</span>0</span>
+				<p class="description-plan">
+					For small bussiness, keep the track or your projects like you ever wanted
+				</p>
+				<%= link_to 'Sing Up', root_path, class: 'sign-up-planb btn btn-default'%>
+			</div>
+		</article>
+
+		<article class="col-md-4 plan-container">
+			<div class="the-plan">
+				<h3 class="plan-title">Standar</h3>				
+				<span class="plan_price"><span class="currency">$</span>9<span class="cents">99</span></span>
+				<p class="description-plan">
+					For small bussiness, keep the track or your projects like you ever wanted
+				</p>
+				<%= link_to 'Sing Up', root_path, class: 'sign-up-planb btn btn-default'%>
+			</div>
+		</article>
+		<article class="col-md-4 plan-container">
+			<div class="the-plan">
+				<h3 class="plan-title">Plus</h3>
+				<span class="plan_price"><span class="currency">$</span>19<span class="cents">99</span></span>
+				<p class="description-plan">
+					For startup, keep the track or your projects like you ever wanted
+				</p>
+				<%= link_to 'Sing Up', root_path, class: 'sign-up-planb btn btn-default'%>
+			</div>
+		</article>
+	</section>
+</section>
