@@ -9,6 +9,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'devise'
 gem 'bcrypt', '3.1.10'
+gem 'stripe'
+gem 'figaro'
 
 gem 'jquery-rails'
 gem 'turbolinks'
